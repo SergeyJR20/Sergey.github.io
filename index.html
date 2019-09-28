@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Bresenham's Line Algorithm</title>
+        <link rel="shortcut icon" href="../shared/icons/purple.ico">
+        <link href="../shared/css/reset.css" rel="stylesheet" type="text/css">
+        <link href="../shared/css/floating_button.css" rel="stylesheet" type="text/css">
+        <link href="../shared/css/layout.css" rel="stylesheet" type="text/css">
+        <link href="../shared/css/github.css" rel="stylesheet" type="text/css">
+        <link href="./style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <main>
+            <div class="elevated">
+                <header>
+                    <a title="Back to previews" class="button_toolbar close" id="button_close" href=".."></a>
+                    <button title="Clear Canvas" class="button_toolbar clear" id="button_clear"></button>
+                    <div class="title">Bresenham's Line Algorithm</div>
+                </header>
+                <canvas id="canvas"></canvas>
+            </div>
+            <div class="buttons">
+                <button id="button_line" class="button_control button_line">Line</button>
+                <button id="button_circle" class="button_control button_circle">Circle</button>
+            </div>
+        </main>
+        <a class="button_floating back" href="../Lab1-Erasers" title="Erasing Methods"></a>
+        <a class="button_floating forward" href="../Lab3-FloodFill" title="Flood Fill Algorithms"></a>
+        <script src="../shared/scripts/polyfills.js"></script>
+        <script src="../shared/lib/jquery.min.js"></script>
+        <script src="./classes/Renderer.js"></script>
+        <script src="./classes/RenderArray.js"></script>
+        <script src="./classes/BresenhamsCanvas.js"></script>
+        <script src="./classes/Brush.js"></script>
+        <script src="../shared/scripts/shared.js"></script>
+        <script src="./script.js"></script>
+        <script src="../shared/scripts/transition.js"></script>
+    </body>
+</html>
